@@ -23,7 +23,7 @@ const NavBar = () => {
         <li>
           <a className="flex items-center" href="/">
             <Phone size="18" />
-            <span className="ml-2">+2349033955281</span>
+            <span className="ml-1 -mt-1">+2349033955281</span>
           </a>
         </li>
       </ul>
