@@ -9,7 +9,7 @@ const Header = () => {
       <NavBar />
       <div className="flex items-center h-full w-full bg-yellow-200">
         <div className="w-2/4 flex flex-col items-center justify-center h-full">
-          <div className="flex flex-col items-center justify-around text-center p-3 h-auto">
+          <div className="flex flex-col items-center justify-around text-center p-3 h-auto mt-8">
             <h3>OUR ALL-TIME FAVORITES</h3>
             <h1 className="text-6xl font-extrabold my-2">Customs T-shirts & Denim</h1>
             <span className="w-3/5 text-center my-1">

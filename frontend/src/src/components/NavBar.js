@@ -21,9 +21,9 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <a className="flex items-center" href="/">
+          <a href="/">
             <Phone size="18" />
-            <span className="ml-2">+2349033955281</span>
+            <span>+2349033955281</span>
           </a>
         </li>
       </ul>
