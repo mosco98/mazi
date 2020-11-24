@@ -1,3 +1,21 @@
-// body {
-//   background: red;
-// }
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  position: relative;
+  height: 95vh;
+  nav {
+    position: absolute;
+    top: 0;
+    background: transparent;
+    ul {
+      display: flex;
+    }
+    .main-nav {
+    }
+  }
+  img {
+    // height: 90%;
+  }
+}

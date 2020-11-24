@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.header {
+  position: relative;
+  height: 95vh;
+}
+
+.header nav {
+  position: absolute;
+  top: 0;
+  background: transparent;
+}
+
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header img {
+  height: 95%;
+}
+/*# sourceMappingURL=style.css.map */
