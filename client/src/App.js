@@ -7,6 +7,11 @@ export default class App extends Component {
     return (
       <div>
         <Header />
+        <section className="mt-10">
+          <div className="card">
+            <p>Hello</p>
+          </div>
+        </section>
       </div>
     )
   }

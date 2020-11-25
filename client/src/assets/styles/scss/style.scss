@@ -9,16 +9,24 @@ body {
     position: absolute;
     top: 0;
     background: transparent;
+    z-index: 10;
     ul {
       display: flex;
+      align-items: center;
       li {
         margin: 0 8px;
       }
     }
     .main-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
   img {
-    height: 95%;
+    height: 90%;
+  }
+  .slide {
+    height: 95vh;
   }
 }

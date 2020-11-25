@@ -4,7 +4,7 @@ import { Facebook, Instagram, Phone, Twitter } from 'react-feather'
 const NavBar = () => {
   return (
     <nav className="w-full px-4">
-      <ul className="py-2">
+      <ul className="py-4">
         <li>
           <a href="/">
             <Instagram size="18" />
@@ -28,8 +28,14 @@ const NavBar = () => {
         </li>
       </ul>
       <div className="main-nav py-4">
-        <div>
-          <h1>Logo</h1>
+        <div className="flex items-center" style={{ margin: '0 8px' }}>
+          <h1 className="text-3xl">Logo</h1>
+          <ul className="ml-10">
+            <li>New arrivals</li>
+            <li>Collections</li>
+            <li>Promos</li>
+            <li>Coming soon</li>
+          </ul>
         </div>
       </div>
     </nav>
